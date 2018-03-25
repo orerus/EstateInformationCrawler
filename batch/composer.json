@@ -1,0 +1,31 @@
+{
+    "name": "vendor/php-crawler",
+    "authors": [
+        {
+            "name": "Sho Murata",
+            "email": "raisuta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "Ecrawler",
+            "Environment.php"
+        ]
+    },
+    "config": {
+        "secure-http": false
+    },
+    "require": {
+        "fabpot/goutte": "~2.0",
+        "pear-pear.php.net/PEAR": "*",
+        "pear-pear.php.net/Cache_Lite": "*",
+        "monolog/monolog": "^1.19",
+        "sentry/sentry": "^1.5"
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ]
+}
